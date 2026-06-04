@@ -55,7 +55,7 @@ const Librarian = () => {
         if (doc) {
             setFormData(doc);
         } else {
-            setFormData({ id: null, title: '', author: '', publishYear: '', category: '', description: '' }); // Thêm mới
+            setFormData({ id: null, title: '', author: '', publishYear: '', category: '', description: '' });
         }
         setShowModal(true);
     };

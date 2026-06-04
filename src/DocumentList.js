@@ -81,11 +81,9 @@ const DocumentList = () => {
                 </div>
             </div>
             
-            {/* THANH TÌM KIẾM ĐA TIÊU CHÍ */}
             <div className="card mb-4 shadow-sm border-0 bg-white">
                 <div className="card-body">
                     <form onSubmit={handleSearch} className="d-flex w-100">
-                        {/* Dropdown chọn tiêu chí */}
                         <select 
                             className="form-select border-primary me-2 fw-bold text-primary" 
                             style={{maxWidth: '220px'}}
